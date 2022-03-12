@@ -71,3 +71,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+heroku create 
+heroku container:login
+heroku container:push web
+heroku stack:set container
+heroku container:release web
+yar
+git add .
+git commit -am "Changes to my-project noted"
+git push heroku HEAD:main
+heroku open
